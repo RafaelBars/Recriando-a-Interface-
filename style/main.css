@@ -1,0 +1,370 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#030303;
+    /* --preta:#141414 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+   
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 7%;
+    width: 7%;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color: #AAA;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Filme Principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/ChicagoPD1.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /*  margin-top: 10px;*/
+}
+
+
+/* Filme SECUNDARIO*/
+
+.filme-secundario{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/ChicagoMED1.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-secundario .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-secundario .titulosecundario{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao2{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao2:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao2 i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-secundario .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Filme Principal 2*/
+
+.carrosel-filmes2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.textofinal{
+    font-family: 'Arial Black', Times, serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    margin-left: 570px;
+   
+}
+
+/* Filme TERCIARIO*/
+
+.filme-terciario{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Chicago\ FIRE1.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-terciario .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-terciario .tituloterciario{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao3{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao3:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao3 i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-terciario .container{
+    width: 70%;
+}
+
+.box-filme3{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* Filme QUARTO */
+
+.filme-quarto{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/Chicago-Night-Views-Illinois-1050x1050.jpg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-quarto .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.filme-quarto .tituloquarto{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao4{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao4:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao4 i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-quarto .container{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+/* CRIADO POR*/
+
+
+.textofinal{
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+
+    height: 80px;
+    background-size: cover;
+    margin-left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    font-family: 'Arial', Times, serif;
+}
+
+
+
+
+
+
+
